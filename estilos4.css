@@ -1,0 +1,185 @@
+body{
+    text-align: center;
+    margin: 0;
+    background-color: rgba(251, 218, 224, 0.71);
+}
+html{
+    cursor: url(imagenes/categorias/flor.png), auto;
+}
+a:hover{
+    cursor: url(imagenes/categorias/hoja.png), auto;
+}
+input:hover{
+    cursor: url(imagenes/categorias/hoja.png), auto;
+}
+.ancho{
+    width: 1200px;
+}
+.contenedoruno{
+    border: 1px white solid;
+    background-color: white;
+    contain: content;
+}
+.contlogo{
+    /*border: 1px red solid;*/
+    width: 200px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.contlogo img{
+    width: 130px;
+}
+.contboto{
+    display: inline-block;
+    /*border: 1px red solid;*/
+    margin-top: 50px;
+    width: 600px;
+    margin-left: 15px;
+}
+.contboto a{
+    font-family: Lucida Sans;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+.contnum{
+    float: right;
+    /*border: 1px red solid;*/
+    width: 300px;
+    margin-top: 20px;
+    margin-right: 90px;
+}
+.contnum p{
+    font-family: Lucida Sans;
+    font-size: 20px ;
+    text-decoration: none;
+    color: #E5C17E;
+}
+.contnum p img{
+    width: 35px;
+}
+.imgbanner{
+    width: 100%;
+}
+.contbanner2{
+    background-image: url(imagenes/banner2.jpg);
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    background-size: cover;
+    height: 200px;
+    margin-top: -30px;
+}
+.serv{
+    border-bottom: 2px #E5C17E solid;
+    color: #E5C17E;
+    margin-left: 200px;
+    padding: 30px;
+    font-family: Lucida Sans;
+    font-size: 45px;
+}
+.imgbanner2{
+    width: 100%;
+    height: 800px;
+}
+.continfo{
+    clear: both;
+    border: 3px white solid;
+    background-color: white;
+    contain: content;
+    width: 100%;
+}
+.contlogo2{
+    float: left;
+    margin-left: 100px;
+}
+.contdir{
+    display: inline-block;
+    margin-right: 500px;
+    width: 300px;
+    margin-top: 50px;
+}
+.contdir p{
+    font-family: impact;
+    font-weight: normal;
+    font-size: 20px;
+    color: black  ;
+}
+.contredes{
+    float: right;
+    margin-right: 400px;
+    margin-top: -50px;
+}
+.contredes img{
+    width: 40px;
+}
+.conttext{
+    text-align: center;
+    /*border: 1px red solid;*/
+}
+.conttext h1{
+    text-align: center;
+    font-size: 35px;
+    color: #E5C17E;
+}
+.conttext p{
+    font-family: Lucida Sans;
+    font-size: 20px;
+    color: #E75B61;
+}
+.conttext spam{
+    font-family: Lucida Sans;
+    font-size: 30px;
+    color: #E75B61;
+}
+.contopc{
+    float:right;
+    /*border: 1px red solid;*/
+    width: 700px;
+    padding-right: 80px;
+}
+.contopcimg{
+    display: inline-block;
+    margin: 10px;
+}
+.contserv{
+    contain: content;
+}
+.contmap h1{
+    border-bottom: 3px #E5C17E solid;
+    font-size: 35px;
+    color: #E5C17E;
+}
+.contflores{
+    border: 2px #E5C17E dotted;
+    width: 200px;
+    height: 300px;
+    padding: 15px;
+    margin: 10px;
+    clear: both;
+    display: inline-block;
+}
+.imgprod{
+    width: 190px;
+    border-radius: 50%;
+}
+.textoprod{
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+.precioprod{
+    font-family: impact;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    color: black  ;
+}
+.contcate{
+    border: 2px #E5C17E solid;
+    width: 1100px;
+    padding: 20px;
+}
